@@ -1,0 +1,161 @@
+/* ------------------
+    General setting
+-------------------- */
+*{
+    font-family: "Century Gothic","Microsoft yahei";
+    font-weight: 300;
+}
+html{
+    height: 100%;
+}
+body{
+    position: relative;
+    height: 100%;
+    background-color: #373740;
+}
+
+h1, h2, h3, h4, h5, h6{
+    color: #ffffff;
+}
+
+p{
+    font-weight: 300;
+}
+
+img{
+    background-size: auto;
+}
+
+.error{
+    border-color: red !important;
+}
+
+::-webkit-input-placeholder { /* WebKit browsers */
+    color:    #ffffff;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:    #ffffff;
+    opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:    #ffffff;
+    opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color:    #ffffff;
+}
+
+.container{
+    position: relative;
+}
+
+/* ------------------
+    Button
+-------------------- */
+.btn{
+    font-size: 18px;
+    font-weight: 600;
+    color: #ffffff;
+    border: 0px solid;
+    border-bottom: 2px solid;
+    border-color: #b1533e;
+    padding: 10px 41px;
+    border-radius: 5px;
+    background: none;
+    text-transform: uppercase;
+    display: inline-block;
+    margin: 20px 20px 0 0;
+    background-color: #e56e54;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    text-decoration: none;
+    cursor: pointer;
+}
+.btn:hover{
+    background: #b1533e;
+    color: #ffffff;
+    text-decoration: none;
+}
+.btn-light-blue{
+    border-color: #6b4b41;
+    background-color: #845e52;
+}
+.btn-light-blue:hover{
+    background: #6b4b41;
+}
+
+/* ------------------
+    Wrapper
+-------------------- */
+#wrapper{
+    min-height: 100%;
+    height: 100%;
+    width: 100%;
+}
+
+/* ------------------
+    Info
+--------------------*/
+.info{
+    position: relative;
+    z-index: 999;
+}
+
+.info h1{
+    font-size: 102px;
+    font-weight: 700;
+    margin-top: 120px;
+    line-height: 105px;
+    color: #f4ffa5;
+    text-transform: uppercase;
+}
+
+.info h2{
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 48px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.info p{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 200;
+    color: #ffffff;
+    margin: 15px 0;
+}
+
+/* ------------------
+    Guardian
+--------------------*/
+.guardian{
+    margin-top: 100px;
+}
+
+/* ------------------
+    Animationload
+--------------------*/
+.animationload {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ffffff;
+    z-index: 999999;
+}
+.loader {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -100px 0 0 -100px;
+    width: 200px;
+    height: 200px;
+    background-image: url("../images/ajax-loader.gif");
+    background-position: center;
+    background-repeat: no-repeat;
+}

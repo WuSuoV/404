@@ -1,0 +1,13 @@
+﻿html, body{height: 100%;}
+body{background: #082330;background-size: .12em 100%;font: 16em/1 arial;}
+.text--line{font-size: .5em;}
+.text--line2{font-size: .2em;}
+svg{position: absolute;width: 100%;height: 100%;}
+.text-copy{fill: none;stroke: white;stroke-dasharray: 7% 28%;stroke-width: 3px;-webkit-animation: stroke-offset 9s infinite linear;animation: stroke-offset 9s infinite linear;}
+.text-copy:nth-child(1){stroke: #360745;stroke-dashoffset: 7%;}
+.text-copy:nth-child(2){stroke: #d61c59;stroke-dashoffset: 14%;}
+.text-copy:nth-child(3){stroke: #e7d84b;stroke-dashoffset: 21%;}
+.text-copy:nth-child(4){stroke: #efeac5;stroke-dashoffset: 28%;}
+.text-copy:nth-child(5){stroke: #1b8798;stroke-dashoffset: 35%;}
+@-webkit-keyframes stroke-offset{50%{stroke-dashoffset: 35%;stroke-dasharray: 0 87.5%;}}
+@keyframes stroke-offset{50%{stroke-dashoffset: 35%;stroke-dasharray: 0 87.5%;}}

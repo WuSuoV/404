@@ -1,0 +1,318 @@
+/*-- Reset-Code --*/
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,dl,dt,dd,ol,nav ul,nav li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}
+article, aside, details, figcaption, figure,footer, header, hgroup, menu, nav, section {display: block;}
+ol,ul{list-style:none;margin:0px;padding:0px;}
+blockquote,q{quotes:none;}
+blockquote:before,blockquote:after,q:before,q:after{content:'';content:none;}
+table{border-collapse:collapse;border-spacing:0;}
+a{text-decoration:none;}
+.txt-rt{text-align:right;}/* text align right */
+.txt-lt{text-align:left;}/* text align left */
+.txt-center{text-align:center;}/* text align center */
+.float-rt{float:right;}/* float right */
+.float-lt{float:left;}/* float left */
+.clear{clear:both;}/* clear float */
+.pos-relative{position:relative;}/* Position Relative */
+.pos-absolute{position:absolute;}/* Position Absolute */
+.vertical-base{	vertical-align:baseline;}/* vertical align baseline */
+.vertical-top{	vertical-align:top;}/* vertical align top */
+nav.vertical ul li{	display:block;}/* vertical menu */
+nav.horizontal ul li{	display: inline-block;}/* horizontal menu */
+img{max-width:100%;}
+body {
+	padding-top: 2em;
+	margin: 0;
+	font-family: 'Raleway', sans-serif;
+	background: linear-gradient(to left, #ffb310 50%, #3498db 50%);
+}
+body a {
+	transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+	-o-transition: 0.5s all;
+	-ms-transition: 0.5s all;
+	text-decoration: none;
+	letter-spacing:1px;
+	font-size:15px;
+	font-weight:600;
+}
+body a:hover {
+	text-decoration: none;
+}
+body a:focus, a:hover {
+	text-decoration: none;
+}
+input[type="button"], input[type="submit"] {
+	transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+	-o-transition: 0.5s all;
+	-ms-transition: 0.5s all; .....................
+}
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	padding: 0;
+    font-family: 'Raleway', sans-serif;
+    font-weight:600;
+	letter-spacing:1px;
+		
+}
+.clear{
+	clear:both;
+}
+.row{
+	margin:0px;
+	padding:0px;
+}
+ul {
+	margin: 0;
+	padding: 0;
+}
+label {
+	margin: 0;
+}
+a:focus, a:hover {
+	text-decoration: none;
+	outline: none;
+}
+img{
+	width:100%;
+}
+/*-- //Reset-Code --*/
+
+.error_main {
+    width: 100%;
+}
+h1 {
+    font-size: 50px;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 40px;
+    letter-spacing: 5px;
+}
+h2 {
+    font-size: 30px;
+    text-transform: capitalize;
+    margin: 0;
+    color: #333;
+}
+p {
+	margin: 0;
+	color:#777;
+	letter-spacing:1px;
+	line-height:1.8em;
+	font-size:14px;
+	font-weight:400;
+    margin: 2em 0;
+}
+.error_content span.fa.fa-frown-o {
+    font-size: 100px;
+    color: #ffb310;
+}
+.error_content {
+    padding: 5em 7em;
+    background: #fff;
+    width: 50%;
+    margin: 0 auto;
+}
+.footer p{
+    text-align: center;
+    color: #eee;
+    letter-spacing: 2px;
+    font-size: 15px;
+    margin: 3em 0 1em;
+}
+.footer p a{
+    color: #eee;
+}
+form {
+    width: 40%;
+}
+form input[type="search"] {
+    outline: none;
+    border: 1px solid #c4c5c5;
+    background: none;
+    color: #212121;
+    padding: 13px 15px;
+    width: 80%;
+    float: left;
+    font-size: 13px;
+    letter-spacing: 2px;
+    font-family: 'Raleway', sans-serif;
+}
+button.btn1 {
+    color: #fff;
+    border: none;
+    padding: 14px 0;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+    background: #232323;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+    transition: 0.5s all;
+    float: right;
+    width: 20%;
+}
+
+a.b-home {
+    background: #3598db;
+    padding: 1em 1.5em;
+    display: inline-block;
+    color: #FFF;
+    text-decoration: none;
+    font-size: 0.9em;
+	margin-top: 2em;
+}
+a.b-home:hover {
+    background: #ffb310;
+}
+/** Responsive **/
+@media screen and (max-width: 1440px){
+	.error_content {
+		padding: 5em 6em;
+		width: 52%;
+	}
+}
+@media screen and (max-width: 1366px){
+	.error_content {
+		padding: 4em 6em;
+		width: 55%;
+	}
+}
+@media screen and (max-width: 1280px){
+	.error_content {
+		padding: 4em 6em;
+		width: 60%;
+	}
+	.error_content span.fa.fa-frown-o {
+		font-size: 90px;
+	}
+}
+@media screen and (max-width: 1080px){
+	.error_content {
+		padding: 4em 4em;
+		width: 70%;
+	}
+	h1 {
+		font-size: 45px;
+		letter-spacing: 3px;
+	}
+}
+@media screen and (max-width: 1024px){
+	.error_content {
+		padding: 4em 3em;
+		width: 72%;
+	}
+	h2 {
+		font-size: 28px;
+	}
+}
+@media screen and (max-width: 991px){
+	.error_content {
+		padding: 4em 3em;
+		width: 75%;
+	}
+	p {
+		margin: 1.5em 0;
+	}
+}
+@media screen and (max-width: 900px){
+	p {
+		letter-spacing: .5px;
+	}
+	form {
+		width: 50%;
+	}
+}
+@media screen and (max-width: 800px){
+	form {
+		width: 60%;
+	}
+}
+@media screen and (max-width: 768px){
+	h1 {
+		font-size: 40px;
+		letter-spacing: 2px;
+		margin-bottom: 30px;
+	}
+	h2 {
+		font-size: 26px;
+	}
+	.error_content span.fa.fa-frown-o {
+		font-size: 80px;
+	}
+}
+@media screen and (max-width: 640px){
+	.footer p {
+		letter-spacing: 1px;
+	}
+	.error_content {
+		padding: 3em 3em;
+	}
+}
+@media screen and (max-width: 480px){
+	form {
+		width: 70%;
+	}
+	h1 {
+		font-size: 35px;
+		letter-spacing: 2px;
+		margin-bottom: 20px;
+	}
+	h2 {
+		font-size: 24px;
+	}
+	.error_content span.fa.fa-frown-o {
+		font-size: 70px;
+	}
+	a.b-home {
+		padding: .8em 1.5em;
+	}
+	.footer p {
+		letter-spacing: 1px;
+		font-size: 14px;
+	}
+}
+@media screen and (max-width: 414px){
+	.error_content {
+		padding: 2em 2em;
+	}
+	h2 {
+		font-size: 22px;
+	}
+	form {
+		width: 80%;
+	}
+}
+@media screen and (max-width: 384px){
+	h1 {
+		font-size: 30px;
+		margin-bottom: 15px;
+	}
+}
+@media screen and (max-width: 375px){
+	p {
+		letter-spacing: 0px;
+	}
+}
+@media screen and (max-width: 320px){
+	h2 {
+		font-size: 19px;
+		letter-spacing: 0px;
+	}
+	form {
+		width: 100%;
+	}
+}
+@media screen and (max-width: 1366px){
+
+}
+@media screen and (max-width: 1366px){
+
+}
+/** /Responsive **/
+
+
