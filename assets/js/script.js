@@ -3,7 +3,7 @@ const slideData = [
         index: 0,
         // headline: '宝塔默认',
         button: '查看',
-        src: '../assets/images/001.png',
+        src: './assets/images/001.png',
         href: 'https://qiantigers.github.io/404/001/404.html'
     },
 
@@ -11,7 +11,7 @@ const slideData = [
         index: 1,
         // headline: '大气六边形动态',
         button: '查看',
-        src: '../assets/images/002.png',
+        src: './assets/images/002.png',
         href: 'https://qiantigers.github.io/404/002/404.html'
     },
 
@@ -19,7 +19,7 @@ const slideData = [
         index: 2,
         // headline: '地球简约',
         button: '查看',
-        src: '../assets/images/003.png',
+        src: './assets/images/003.png',
         href: 'https://qiantigers.github.io/404/003/404.html'
     },
 
@@ -27,7 +27,7 @@ const slideData = [
         index: 3,
         // headline: '摇动吊牌',
         button: '查看',
-        src: '../assets/images/004.png',
+        src: './assets/images/004.png',
         href: 'https://qiantigers.github.io/404/004/404.html'
     },
 
@@ -35,7 +35,7 @@ const slideData = [
         index: 4,
         // headline: '两只小鸟',
         button: '查看',
-        src: '../assets/images/005.png',
+        src: './assets/images/005.png',
         href: 'https://qiantigers.github.io/404/005/404.html'
     },
 
@@ -43,7 +43,7 @@ const slideData = [
         index: 5,
         // headline: '树叶遮体可爱卡通',
         button: '查看',
-        src: '../assets/images/006.png',
+        src: './assets/images/006.png',
         href: 'https://qiantigers.github.io/404/006/404.html'
     },
 
@@ -51,7 +51,7 @@ const slideData = [
         index: 6,
         // headline: '卡通小人看板',
         button: '查看',
-        src: '../assets/images/007.png',
+        src: './assets/images/007.png',
         href: 'https://qiantigers.github.io/404/007/404.html'
     },
 
@@ -59,7 +59,7 @@ const slideData = [
         index: 7,
         // headline: '腾讯公益',
         button: '查看',
-        src: '../assets/images/008.png',
+        src: './assets/images/008.png',
         href: 'https://qiantigers.github.io/404/008/404.html'
     },
 
@@ -67,14 +67,14 @@ const slideData = [
         index: 8,
         // headline: '下雪特效',
         button: '查看',
-        src: '../assets/images/009.png',
+        src: './assets/images/009.png',
         href: 'https://qiantigers.github.io/404/009/404.html'
     },
 
     {
         index: 9,
         button: '查看',
-        src: '../assets/images/010.png',
+        src: './assets/images/010.png',
         href: 'https://qiantigers.github.io/404/010/404.html'
     },
 
@@ -82,7 +82,7 @@ const slideData = [
         index: 10,
         // headline: '搜狐',
         button: '查看',
-        src: '../assets/images/011.png',
+        src: './assets/images/011.png',
         href: 'https://qiantigers.github.io/404/011/404.html'
     },
 
@@ -90,7 +90,7 @@ const slideData = [
         index: 11,
         // headline: '蓝黄双色拼接',
         button: '查看',
-        src: '../assets/images/012.png',
+        src: './assets/images/012.png',
         href: 'https://qiantigers.github.io/404/012/404.html'
     },
 
@@ -98,7 +98,7 @@ const slideData = [
         index: 12,
         // headline: '炫彩笔划',
         button: '查看',
-        src: '../assets/images/013.png',
+        src: './assets/images/013.png',
         href: 'https://qiantigers.github.io/404/013/404.html'
     },
 
@@ -106,7 +106,7 @@ const slideData = [
         index: 13,
         // headline: '灰色滚动',
         button: '查看',
-        src: '../assets/images/014.png',
+        src: './assets/images/014.png',
         href: 'https://qiantigers.github.io/404/014/404.html'
     },
 
@@ -114,7 +114,7 @@ const slideData = [
         index: 14,
         // headline: '守卫萝卜',
         button: '查看',
-        src: '../assets/images/015.png',
+        src: './assets/images/015.png',
         href: 'https://qiantigers.github.io/404/015/404.html'
     },
 
@@ -122,7 +122,7 @@ const slideData = [
         index: 15,
         // headline: '数字墙星系',
         button: '查看',
-        src: '../assets/images/016.png',
+        src: './assets/images/016.png',
         href: 'https://qiantigers.github.io/404/016/404.html'
     },
 
@@ -130,7 +130,7 @@ const slideData = [
         index: 16,
         // headline: '可爱幽灵',
         button: '查看',
-        src: '../assets/images/017.png',
+        src: './assets/images/017.png',
         href: 'https://qiantigers.github.io/404/017/404.html'
     },
 
@@ -138,7 +138,7 @@ const slideData = [
         index: 17,
         // headline: '太空宇航员',
         button: '查看',
-        src: '../assets/images/018.png',
+        src: './assets/images/018.png',
         href: 'https://qiantigers.github.io/404/018/404.html'
     },
 
@@ -146,19 +146,19 @@ const slideData = [
         index: 18,
         // headline: '简约复古',
         button: '查看',
-        src: '../assets/images/019.png',
+        src: './assets/images/019.png',
         href: 'https://qiantigers.github.io/404/019/404.html'
     },
     {
         index: 19,
         button: '查看',
-        src: '../assets/images/020.png',
+        src: './assets/images/020.png',
         href: 'https://qiantigers.github.io/404/020/404.html'
     },
     {
         index: 20,
         button: '查看',
-        src: '../assets/images/021.png',
+        src: './assets/images/021.png',
         href: 'https://qiantigers.github.io/404/021/404.html'
     }
     
