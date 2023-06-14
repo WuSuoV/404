@@ -9,7 +9,7 @@
 
 &emsp;&emsp;这么多模板，如果你懒得一个一个点，那可以看看我推荐的几个。
 
-&emsp;&emsp;推荐：[缤纷多彩的404页面（404.html） - 勿埋我心 (qian.blue)](https://www.qian.blue/archives/404-Pages.html)
+&emsp;&emsp;推荐：[缤纷多彩的404页面（404.html） - 勿埋我心 (skyqian.com)](https://www.skyqian.com/archives/404-Pages.html)
 
 ## 结语
 
